@@ -21,7 +21,7 @@ Use a css preprocessor if you prefer **sass** or less. √.
 Display the Review Rating for the selected mattress. √.     
 Add animation where you see fit. √     
 Add your own flair to the design. √ (try switching your system dysplay: dark mode / light mode).    
-Add a unit test for the "Add to Cart" functionality.    
+Add a unit test for the "Add to Cart" functionality. √    
 
 ## 
 
