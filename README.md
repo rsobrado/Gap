@@ -1,3 +1,30 @@
+## Mattress Shop Page
+Create a single page application using the data provided in mattresses.json to populate the mattress data in the application.
+
+Feel free to use whichever framework you feel is best.
+
+#### >>> [Live Demo](https://rsobrado.github.io/Gap) <<<
+
+### Requirements:
+The design should match the mock as best as possible.
+You can use a design system (ex. Bootstrap) if preferred.
+Use a cart icon of your choice.
+The user should have the ability to toggle between mattresses.
+As the mattress selection changes:
+the selected mattress name and price should be reflected below the mattress toggle.
+the selected mattress image should be reflected to the left of the configuration area (images files can be found in /images)
+The "Add to Cart" button should increment the cart item count (in the top right of the view)
+The application you create should be responsive though we have only provided the design for the desktop experience. You are responsible for deciding how the application will scale to a mobile experience. This is your opportunity to be creative.
+Use fonts 'Source Serif Pro' for the "Choose Your Mattress" header and 'Questrial' for body copy. These can be found on google fonts website.
+### Bonus Points:
+Use a css preprocessor if you prefer **sass** or less. √.     
+Display the Review Rating for the selected mattress. √.     
+Add animation where you see fit. √     
+Add your own flair to the design. √ (try switching your system dysplay: dark mode / light mode).    
+Add a unit test for the "Add to Cart" functionality.    
+
+## 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
