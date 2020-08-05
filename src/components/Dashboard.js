@@ -42,6 +42,7 @@ export default function Dashboard() {
     setMattresses(data.mattresses)
     setCartItems(0)
   }, [])
+
   const handleAddToCart = (event) => {
     setCartItems(cartItems+1)
   }
@@ -77,6 +78,8 @@ export default function Dashboard() {
             />
             <Grid item xs={12} lg={12} style={{ textAlign: 'right' }}>
               <Button
+              id="add-to-cart"
+              value="add"
                 variant="contained"
                 color="primary"
                 onClick={handleAddToCart}

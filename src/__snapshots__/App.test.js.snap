@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard should con correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should contains  correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should contains Add to Cart CTA 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should contains Add to Cart CTA 2`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should contains Add to Cart correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Dashboard should render correctly 1`] = `ShallowWrapper {}`;
