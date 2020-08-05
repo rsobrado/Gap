@@ -1,4 +1,4 @@
-##Mattress Shop Page
+## Mattress Shop Page
 Create a single page application using the data provided in mattresses.json to populate the mattress data in the application.
 
 Feel free to use whichever framework you feel is best.
