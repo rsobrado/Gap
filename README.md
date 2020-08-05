@@ -15,11 +15,11 @@ The "Add to Cart" button should increment the cart item count (in the top right 
 The application you create should be responsive though we have only provided the design for the desktop experience. You are responsible for deciding how the application will scale to a mobile experience. This is your opportunity to be creative.
 Use fonts 'Source Serif Pro' for the "Choose Your Mattress" header and 'Questrial' for body copy. These can be found on google fonts website.
 ### Bonus Points:
-Use a css preprocessor if you prefer **sass** or less. √
-Display the Review Rating for the selected mattress. √
-Add animation where you see fit. √
-Add your own flair to the design. √ (try switching your system dysplay: dark mode / light mode)
-Add a unit test for the "Add to Cart" functionality.
+Use a css preprocessor if you prefer **sass** or less. √. 
+Display the Review Rating for the selected mattress. √. 
+Add animation where you see fit. √. 
+Add your own flair to the design. √ (try switching your system dysplay: dark mode / light mode). 
+Add a unit test for the "Add to Cart" functionality.  
 
 ## 
 
