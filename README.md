@@ -3,6 +3,8 @@ Create a single page application using the data provided in mattresses.json to p
 
 Feel free to use whichever framework you feel is best.
 
+#### [Live Demo](https://rsobrado.github.io/Gap).
+
 ### Requirements:
 The design should match the mock as best as possible.
 You can use a design system (ex. Bootstrap) if preferred.
