@@ -23,7 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--dark-main-color);
   overflow: hidden;
-    height: calc(100vh);
+
   @media screen and (prefers-color-scheme: dark) {
     background: linear-gradient(60deg, var(--dark-main-color), darken(#023475, 2%));
     color: var(--main-color);
