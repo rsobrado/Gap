@@ -1,36 +1,51 @@
+:root {
+  --main-color: #f6f5f3;
+  --secondary-color: wheat;
+  --third-color: #c19579;
+  --warning-color: #e6b417;
+
+  --dark-main-color: #171B2C;
+  --dark-main-color-washed: #5f4a2c;
+  --dark-secondary-color: #013475;
+  --dark-third-color: #74e6ed;
+  --dark-warning-color: #5977ad;
+
+}
+
 html {
   overflow: hidden;
 }
 body {
-  background: #282c34;
+  background: linear-gradient(60deg, var(--main-color), lighten(#f6f5f3, 82%));
   margin: 0;
   font-family: 'Questrial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: wheat;
+  color: var(--dark-main-color);
   overflow: hidden;
-  @media screen and (prefers-color-scheme: light) {
-    background: #f6f5f3;
-    color: #282c34;
+    height: calc(100vh);
+  @media screen and (prefers-color-scheme: dark) {
+    background: linear-gradient(60deg, var(--dark-main-color), darken(#023475, 2%));
+    color: var(--main-color);
   }
 }
 
 .logo {
   width: 120px;
   path {
-    fill: wheat;
+    fill: var(--secondary-color);
   }
   @media screen and (prefers-color-scheme: light) {
     path {
-      fill: #c19579;
+      fill: var(--third-color);
     }
   }
 }
 
 img {
   width: 100%;
-  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 14px 0px rgba(0, 0, 0, 0.14), 0px 1px 22px 0px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
 }
 
@@ -58,10 +73,10 @@ h6 {
 
 .MuiTabs-indicator {
   height: 3px !important;
-  background-color: #e6b417 !important;
+  background-color: var(--warning-color) !important;
   font-weight: 400 !important;
   &:hover {
-    color: #e6b417 !important;
+    color: var(--warning-color) !important;
   }
 }
 
@@ -71,6 +86,6 @@ button {
   text-shadow: 0 1px 1px black;
   line-height: 1.1 !important;
   &:hover {
-    color: #e6b417 !important;
+    color: var(--warning-color) !important;
   }
 }

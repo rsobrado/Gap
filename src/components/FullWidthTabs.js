@@ -54,27 +54,27 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     boxShadow: 'inset 0 -1px 2px rgba(0,0,0,0.12)',
     borderRadius: 15,
-    background: 'linear-gradient(60deg, rgba(0,0,0,0.3), transparent)',
-    '@media screen and (prefers-color-scheme: light) ': {
-      color: '#282c34',
-      background: 'linear-gradient(60deg, #ffffff, transparent)',
+    color: 'var(--dark-main-color)',
+    background: 'linear-gradient(60deg, #ffffff, transparent)',
+    '@media screen and (prefers-color-scheme: dark) ': {
+      background: 'linear-gradient(60deg, rgba(0,0,0,0.3), transparent)',
+      color: 'var(--main-color)',
     },
   },
   colorDefault: {
     borderRadius: '15px 15px 0 0 ',
-    background: 'linear-gradient(60deg, #676561, #737271)',
+    background: 'linear-gradient(60deg, var(--dark-main-color), var(--dark-main-color-washed))', 
     color: '#e6b417 !important',
     overflow: 'hidden',
     '&:hover': {
-      color: '#282c34',
+      color: 'var(--dark-main-color)',
     },
-    '@media screen and (prefers-color-scheme: light) ': {
-      background: 'linear-gradient(60deg, #222222, #5e5e5e)',
-      color: '#282c34',
+    '@media screen and (prefers-color-scheme: dark) ': {
+      background: 'linear-gradient(60deg, var(--dark-secondary-color), var(--dark-warning-color))',
     },
   },
   textColorPrimary: {
-    backgroundColor: 'wheat',
+    backgroundColor: 'var(--third-color)',
     height: 4,
   },
 }))

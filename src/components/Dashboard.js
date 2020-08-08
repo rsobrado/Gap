@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
   contained: {
     marginTop: 40,
-    backgroundColor: 'rgb(230,180,22)',
+    backgroundColor: 'var(--warning-color)',
     borderRadius: 10,
     color: '#282c34',
     textShadow: 'none',

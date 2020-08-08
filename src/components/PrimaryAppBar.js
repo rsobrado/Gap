@@ -19,15 +19,20 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   colorPrimary: {
-    background: 'linear-gradient(60deg, #222, transparent)',
+    background: 'linear-gradient(60deg,white,var(--main-color))',
+    color: 'var(--dark-main-color)',
     padding: 10,
-    '@media screen and (prefers-color-scheme: light) ': {
-      background: 'linear-gradient(60deg, #ffffff, transparent)',
-      color: '#282c34',
+    '@media screen and (prefers-color-scheme: dark) ': {
+      background: 'linear-gradient(60deg, var(--dark-main-color), #023475)',
+      color: 'var(--dark-warning-color)',
     }
   },
   colorSecondary: {
-    backgroundColor: '#c19579',
+    backgroundColor: 'var(--third-color)',
+    '@media screen and (prefers-color-scheme: dark) ': {
+      background: 'var(--warning-color)',
+      color: 'var(--dark-secondary-color)'
+    }
   },
 }))
 

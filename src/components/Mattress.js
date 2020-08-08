@@ -6,10 +6,10 @@ import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles((theme) => ({
   manttresMattressName: {
-    fontSize: '1.2rem',
+    fontSize: '1.4rem',
   },
   manttresMattressPrice: {
-    fontSize: '1.1rem',
+    fontSize: '1.25rem',
     opacity: '0.5',
   },
 }))
