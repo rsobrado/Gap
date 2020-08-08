@@ -4,12 +4,11 @@
   --third-color: #c19579;
   --warning-color: #e6b417;
 
-  --dark-main-color: #171B2C;
+  --dark-main-color: #171b2c;
   --dark-main-color-washed: #5f4a2c;
   --dark-secondary-color: #013475;
   --dark-third-color: #74e6ed;
   --dark-warning-color: #5977ad;
-
 }
 
 html {
@@ -25,7 +24,11 @@ body {
   overflow: hidden;
 
   @media screen and (prefers-color-scheme: dark) {
-    background: linear-gradient(60deg, var(--dark-main-color), darken(#023475, 2%));
+    background: linear-gradient(
+      60deg,
+      var(--dark-main-color),
+      darken(#023475, 2%)
+    );
     color: var(--main-color);
   }
 }
@@ -33,11 +36,11 @@ body {
 .logo {
   width: 120px;
   path {
-    fill: var(--secondary-color);
+    fill: var(--third-color);
   }
-  @media screen and (prefers-color-scheme: light) {
+  @media screen and (prefers-color-scheme: dark) {
     path {
-      fill: var(--third-color);
+      fill: var(--secondary-color);
     }
   }
 }
